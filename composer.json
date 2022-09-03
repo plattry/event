@@ -1,0 +1,27 @@
+{
+  "name": "plattry/event",
+  "description": "The plattry event package",
+  "keywords": [
+    "plattry",
+    "event"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Plattry\\Event\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Aaron Lee",
+      "email": "sixser@foxmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1",
+    "ext-ev": "*",
+    "psr/event-dispatcher": "^1.0"
+  }
+}

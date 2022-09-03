@@ -1,0 +1,8 @@
+# editor files
+.idea
+.vscode
+.DS_Store
+
+# dependency
+vendor
+composer.lock
